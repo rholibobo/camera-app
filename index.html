@@ -6,8 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Camera App</title>
     <link rel="stylesheet" href="style.css">
+
+    <script type = "text/JavaScript">
+        <!--
+           function AutoRefresh( t ) {
+              setTimeout("location.reload(true);", t);
+           }
+        //-->
+     </script>
 </head>
-<body>
+<body onload = "JavaScript:AutoRefresh(5000);">
     <main id="camera">
 
         <canvas id="camera--sensor"></canvas>
